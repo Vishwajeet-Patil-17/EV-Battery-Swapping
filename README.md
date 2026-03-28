@@ -11,4 +11,4 @@ Built using HTML, CSS, and JavaScript with a clean and responsive UI
 
 This project demonstrates front-end development skills including layout design, responsive styling.
 
-Link : http://127.0.0.1:5500/index.html
+website link : https://vishwajeet-patil-17.github.io/EV-Battery-Swapping/
