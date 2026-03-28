@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Battery Swapping Education</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>EV Battery Swapping Educational Website</h1>
+        <p>Learn about the future of electric vehicle energy solutions ⚡</p>
+    </header>
+
+    <section class="card center">
+        <h2>What is Battery Swapping?</h2>
+        <p>
+            Battery swapping is a method where a depleted electric vehicle battery
+            is replaced with a fully charged one. This reduces waiting time and increases EV efficiency.
+        </p>
+
+        <img src="./battery-swap.jpg" alt="EV Battery Swapping" class="image-hover">
+    </section>
+
+    <section class="section">
+        <h2>Why Battery Swapping?</h2>
+
+        <ul class="card">
+            <li><b>Time Efficiency:</b> Swapping takes less than 5 minutes.</li>
+            <li><b>Reduced Infrastructure Load:</b> Less demand on charging stations.</li>
+            <li><b>Battery-as-a-Service:</b> Users don’t need to purchase expensive batteries.</li>
+            <li><b>Fleet Optimization:</b> Perfect for taxis, delivery vehicles and buses.</li>
+        </ul>
+    </section>
+
+    <section class="light-bg">
+        <h2>How It Works</h2>
+
+        <div class="flex-box">
+            <iframe src="https://www.youtube.com/embed/oTXptUuKGrc" allowfullscreen></iframe>
+
+            <div>
+                <p>
+                    Battery swapping typically takes under 5 minutes. Automated systems detect and safely remove the empty battery.
+                </p>
+
+                <p>
+                    Drivers enter the station, swap the depleted battery with a charged one, and continue driving.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Types of Battery Swapping</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Manual Swapping</h3>
+                <p>Technicians manually replace the battery.</p>
+            </div>
+
+            <div class="card">
+                <h3>Automated Swapping</h3>
+                <p>Robotic systems replace batteries in minutes.</p>
+            </div>
+
+            <div class="card">
+                <h3>Mobile Swapping Vans</h3>
+                <p>Portable battery swap services for fleets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="light-bg center">
+        <h2>Quick Quiz</h2>
+        <p>What is the main benefit of battery swapping?</p>
+
+        <button onclick="checkAnswer('a')">A. Longer charging time</button>
+        <button onclick="checkAnswer('b')">B. Reduced downtime</button>
+        <button onclick="checkAnswer('c')">C. Higher battery cost</button>
+
+        <p id="result"></p>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 EV Learn | EV Battery Swapping Project</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
